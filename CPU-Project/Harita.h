@@ -73,81 +73,7 @@ void Grid(void)
 			glEnd();
 			
 		}
-		///////////////////////
-		////YOL11 
-		//for(i=49;i<51;i++)
-		//for( j=3;j<14;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*3.75,j*7.5f);
-		//		glVertex2f((i*3.75f)+3.75,j*7.5);
-		//		glVertex2f((i*3.75)+3.75, (j*7.5)+7.5);
-		//		glVertex2f(i*3.75, (j*7.5)+7.5);
-		//	glEnd();
-		//	
-		//}
-		/////////////////////////
-		////YOL12
-		//for(i=69;i<71;i++)
-		//for( j=3;j<14;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*3.75,j*7.5f);
-		//		glVertex2f((i*3.75f)+3.75,j*7.5);
-		//		glVertex2f((i*3.75)+3.75, (j*7.5)+7.5);
-		//		glVertex2f(i*3.75, (j*7.5)+7.5);
-		//	glEnd();
-		//	
-		//}
-		///////////////////////
-		////YOL16
-		//for(i=61;i<63;i++)
-		//for( j=15;j<23;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*3.75,j*7.5f);
-		//		glVertex2f((i*3.75f)+3.75,j*7.5);
-		//		glVertex2f((i*3.75)+3.75, (j*7.5)+7.5);
-		//		glVertex2f(i*3.75, (j*7.5)+7.5);
-		//	glEnd();
-		//	
-		//}
-		// ///////////////
-		////YOL6(yatay)//
-	 //  ///////////////
-		//for(i=30.5;i<47.5;i++)
-		//	for( j=71;j<73;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*7.5f,j*3.75f);
-		//		glVertex2f((i*7.5f)+7.5,j*3.75);
-		//		glVertex2f((i*7.5)+7.5, (j*3.75)+3.75);
-		//		glVertex2f(i*7.5, (j*3.75)+3.75);
-		//	glEnd();
-		//	
-		//}
-		////YOL6(dikey)
-		//for(i=61;i<63;i++)
-		//for( j=26.5;j<36;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*3.75,j*7.5f);
-		//		glVertex2f((i*3.75f)+3.75,j*7.5);
-		//		glVertex2f((i*3.75)+3.75, (j*7.5)+7.5);
-		//		glVertex2f(i*3.75, (j*7.5)+7.5);
-		//	glEnd();
-		//	
-		//}
+		
 		/////////////
 		//sahil yolu(tamamý)
 		for(i=0;i<71;i++)
@@ -179,65 +105,7 @@ void Grid(void)
 			
 		}
 		//////////////////
-		////YOL4
-		//for(i=19;i<46.5;i++)
-		//	for( j=28;j<30;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*7.5f,j*3.75f);
-		//		glVertex2f((i*7.5f)+7.5,j*3.75);
-		//		glVertex2f((i*7.5)+7.5, (j*3.75)+3.75);
-		//		glVertex2f(i*7.5, (j*3.75)+3.75);
-		//	glEnd();
-		//	
-		//}
-		//	////////////////
-		////YOL13
-		//for(i=49;i<68;i++)
-		//	for( j=28;j<30;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*7.5f,j*3.75f);
-		//		glVertex2f((i*7.5f)+7.5,j*3.75);
-		//		glVertex2f((i*7.5)+7.5, (j*3.75)+3.75);
-		//		glVertex2f(i*7.5, (j*3.75)+3.75);
-		//	glEnd();
-		//	
-		//}
-		//////////////////
-		////YOL14
-		//for(i=49;i<68;i++)
-		//	for( j=21;j<23;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*7.5f,j*3.75f);
-		//		glVertex2f((i*7.5f)+7.5,j*3.75);
-		//		glVertex2f((i*7.5)+7.5, (j*3.75)+3.75);
-		//		glVertex2f(i*7.5, (j*3.75)+3.75);
-		//	glEnd();
-		//	
-		//}
-		//	////////////////
-		////YOL15
-		//for(i=49;i<68;i++)
-		//	for( j=12;j<14;j++)
-		//{
-		//	
-		//	glColor3f(0,0,1);
-		//	glBegin(GL_LINE_LOOP);
-		//		glVertex2f(i*7.5f,j*3.75f);
-		//		glVertex2f((i*7.5f)+7.5,j*3.75);
-		//		glVertex2f((i*7.5)+7.5, (j*3.75)+3.75);
-		//		glVertex2f(i*7.5, (j*3.75)+3.75);
-		//	glEnd();
-		//	
-		//}
+	
 			////////////////
 		//YOL9(sað kýsým)
 		for(i=141;i<142;i++)
@@ -350,27 +218,7 @@ void Harita(void)
 	glRectf(137*3.75,50*3.75,142*3.75,49*3.75);//kavþak orta parça
 
 	glRectf(0*3.75,4*3.75,142*3.75,6*3.75);//sahil yolu
-	//glEnable(GL_DEPTH_TEST);
-	//glBegin(GL_POLYGON);
-	//glVertex3f(5*3.75,53*3.75,4.5f);
-	//glVertex3f(9*3.75,53*3.75,4.5f);
-	//glVertex3f(9*3.75,46*3.75,4.5f);
-	//glVertex3f(5*3.75,46*3.75,4.5f);
-	//glEnd();
-	////glDisable(GL_DEPTH_TEST);
-	//glBegin(GL_POLYGON);
-	//glVertex3f(9*3.75,30*3.75,0.f);
-	//glVertex3f(9*3.75,32*3.75,0);
-	//glVertex3f(24*3.75,46*3.75,0);
-	//glVertex3f(26*3.75,46*3.75,0);
-	//glEnd();
-
-	//glBegin(GL_POLYGON);
-	//glVertex3f(24*3.75,53*3.75,0.f);
-	//glVertex3f(26*3.75,53*3.75,0);
-	//glVertex3f(9*3.75,69*3.75,0);
-	//glVertex3f(9*3.75,67*3.75,0);
-	//glEnd();
+	
 	
 	//çapraz kol(sað alt)
 
@@ -439,14 +287,7 @@ void Harita(void)
 		glVertex3f(95*3.75,61*3.75,0);
 	glEnd();
 	
-	//yol6(dik kýsým)
-	//glRectf(61*3.75,73*3.75,63*3.75,53*3.75);
-	//yol6(yatay kýsým)
 	
-	//glRectf(63*3.75,73*3.75,95*3.75,71*3.75);
-	
-	//segment016
-	//glRectf(61*3.75,46*3.75,63*3.75,30*3.75);
 	
 
 	glRectf(137*3.75,42*3.75,142*3.75,6*3.75);//2x2+yeþillik dikey yol
@@ -454,14 +295,7 @@ void Harita(void)
 	glRectf(138*3.75,90*3.75,141*3.75,58*3.75);//segment34
 	
 	
-	//glRectf(37*3.75,30*3.75,94*3.75,28*3.75);//segment 011+014+017+021(yatay yol)
 	
-	/*glRectf(49*3.75,28*3.75,51*3.75,6*3.75);
-	glRectf(69*3.75,28*3.75,71*3.75,6*3.75);
-	glRectf(98*3.75,23*3.75,137*3.75,21*3.75);
-	glRectf(98*3.75,14*3.75,137*3.75,12*3.75);
-	glRectf(98*3.75,30*3.75,137*3.75,28*3.75);
-		*/
 	glBegin(GL_QUADS);
 		glVertex3f(133*3.75,53*3.75,0);
 		glVertex3f(146*3.75,53*3.75,0);
@@ -590,15 +424,13 @@ void Harita(void)
 		glVertex3f(0,48*3.75,0);
 		glVertex3f(137*3.75,48*3.75,0);
 		
-		/*glVertex3f(9*3.75,48*3.75,0);
-		glVertex3f(137*3.75,48*3.75,0);*/
+		
 		glVertex3f(142*3.75,48*3.75,0);
 		glVertex3f(180*3.75,48*3.75,0);
 		
 		glVertex3f(0,51*3.75,0);
 		glVertex3f(137*3.75,51*3.75,0);
-		/*glVertex3f(9*3.75,51*3.75,0);
-		glVertex3f(137*3.75,51*3.75,0);*/
+	
 		glVertex3f(142*3.75,51*3.75,0);
 		glVertex3f(180*3.75,51*3.75,0);
 
@@ -618,11 +450,7 @@ void Harita(void)
 		glVertex3f(97*3.75,36*3.75,0);
 		glVertex3f(97*3.75,7*3.75,0);
 
-		//glVertex3f(6*3.75,83*3.75,0);//üst yol kesikli çizgileri(sol)
-		//glVertex3f(6*3.75,6*3.75,0);
-
-		//glVertex3f(8*3.75,83*3.75,0);//üst yol kesikli çizgileri(sað)
-		//glVertex3f(8*3.75,6*3.75,0);
+		
 	glEnd();
 	glDisable(GL_LINE_STIPPLE);
 
